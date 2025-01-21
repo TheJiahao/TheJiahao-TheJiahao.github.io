@@ -1,5 +1,99 @@
 # Changelog
 
+## [3.6.0](https://github.com/TheJiahao/TheJiahao.github.io/compare/v3.5.0...v3.6.0) (2025-01-21)
+
+
+### Features
+
+* ✨ Add optional search box to ProjectCollectionLayout ([254d2d1](https://github.com/TheJiahao/TheJiahao.github.io/commit/254d2d136bf7d1416d8203f2b4bc457cfea0a049))
+* ✨ Allow re-collapse in code block ([ae5f959](https://github.com/TheJiahao/TheJiahao.github.io/commit/ae5f959704463287809dd614a8accc0e1bdf808c))
+* ✨ Bold highlighted TOC and navbar link ([89be4e9](https://github.com/TheJiahao/TheJiahao.github.io/commit/89be4e9553f8735cb7c301609fd7eb8e2564cb74))
+* ✨ Extract generic LabeledIconLink ([3ec5eeb](https://github.com/TheJiahao/TheJiahao.github.io/commit/3ec5eeb18bc154c486249754abbba076f4acfb91)), closes [#560](https://github.com/TheJiahao/TheJiahao.github.io/issues/560)
+* ✨ Remove description from blog page ([7cded88](https://github.com/TheJiahao/TheJiahao.github.io/commit/7cded88113897c5e64fa50aa2e76c754f1e503b9))
+* ✨ Show pagination in blog collection page ([a6a4db5](https://github.com/TheJiahao/TheJiahao.github.io/commit/a6a4db59a5b7711571c36f007ab1730a44e8fc11)), closes [#560](https://github.com/TheJiahao/TheJiahao.github.io/issues/560)
+* **callout:** ✨ Add remark-github-blockquote-alert plugin ([39d1b0b](https://github.com/TheJiahao/TheJiahao.github.io/commit/39d1b0b869da3b8aa26f07a3502214fe2575a4ad)), closes [#561](https://github.com/TheJiahao/TheJiahao.github.io/issues/561)
+* **callout:** ✨ Add stylesheet ([0803ade](https://github.com/TheJiahao/TheJiahao.github.io/commit/0803adeb4e0add4569abb856910843c61ba4b6db)), closes [#561](https://github.com/TheJiahao/TheJiahao.github.io/issues/561)
+* **callout:** ✨ Allow custom title ([a7f743a](https://github.com/TheJiahao/TheJiahao.github.io/commit/a7f743a5fa5ecb5757327bb807b92618597da28d)), closes [#561](https://github.com/TheJiahao/TheJiahao.github.io/issues/561)
+* **code-block:** ✨ Add collapsible sections ([02a1b7f](https://github.com/TheJiahao/TheJiahao.github.io/commit/02a1b7fe433d7f7ff245a80a464285dff7e07c5c))
+* **collection-layout:** ✨ Add description and languages to props ([64c05f4](https://github.com/TheJiahao/TheJiahao.github.io/commit/64c05f49d0624b78f63c9d7f08747e4a29478057))
+* **collection-layout:** ✨ Add optional pagination prop ([04b7758](https://github.com/TheJiahao/TheJiahao.github.io/commit/04b7758a1ff1b99392abc24c6ebeae21407a2561)), closes [#560](https://github.com/TheJiahao/TheJiahao.github.io/issues/560)
+* **collection-layout:** ✨ Allow passing headers ([1d184cb](https://github.com/TheJiahao/TheJiahao.github.io/commit/1d184cb04f3c200176f3aba23e8094cc1c1612d6))
+* **icon-link:** ✨ Add only-icon mode ([ecbb127](https://github.com/TheJiahao/TheJiahao.github.io/commit/ecbb1270a71b4e4b7f8dbf380de8a4b14bf4eb6d))
+* **icon-link:** ✨ Allow passing aria attributes ([16cadc4](https://github.com/TheJiahao/TheJiahao.github.io/commit/16cadc426b35dcf788ae238e759e70ed40dbb650))
+* **menu-button:** ✨ Add click effect ([ad90e98](https://github.com/TheJiahao/TheJiahao.github.io/commit/ad90e98274c4d88e64eddf88398516bc0cdf2102))
+* **pagination:** ✨ Add initial pagination ([5b6b3aa](https://github.com/TheJiahao/TheJiahao.github.io/commit/5b6b3aa568f69823f9ae7c68b042802eb3de7aae)), closes [#560](https://github.com/TheJiahao/TheJiahao.github.io/issues/560)
+* **pagination:** ✨ Add styles ([6ac778f](https://github.com/TheJiahao/TheJiahao.github.io/commit/6ac778fc968619d33fbffa1d1f6262e7429dca5b)), closes [#560](https://github.com/TheJiahao/TheJiahao.github.io/issues/560)
+* **pagination:** ✨ Add translations ([5a66b86](https://github.com/TheJiahao/TheJiahao.github.io/commit/5a66b86fb37f9e12d5c648b065506d292ebf7b8f)), closes [#560](https://github.com/TheJiahao/TheJiahao.github.io/issues/560)
+* **post:** ✨ Add cover to astro-react-table-of-contents ([34bcd07](https://github.com/TheJiahao/TheJiahao.github.io/commit/34bcd07a92c815dfe36e13d6cb9ad0e763ae6797))
+* **post:** ✨ Add non-working solution to astro-react-table-of-contents ([a9eb61a](https://github.com/TheJiahao/TheJiahao.github.io/commit/a9eb61a4b8b9a352ba5e00a9e280a5046ef9d5b9))
+* **post:** ✨ Add remark sectionize to astro-react-table-of-contents ([daaf5c7](https://github.com/TheJiahao/TheJiahao.github.io/commit/daaf5c76f063177f313d5733c3e70631c9b63e76))
+* **post:** ✨ Complete astro-react-table-of-contents ([1728a3f](https://github.com/TheJiahao/TheJiahao.github.io/commit/1728a3f6ca8f8e3227d751dabe4fdd486d9de4ed))
+* **post:** ✨ Initialize astro-react-table-of-contents ([741f4a9](https://github.com/TheJiahao/TheJiahao.github.io/commit/741f4a976a97b5fed761f37517545d6b8cf436a2))
+* **post:** ✨ Update section visibility part of astro-react-table-of-contents ([de393d0](https://github.com/TheJiahao/TheJiahao.github.io/commit/de393d07f7ae8187d8219fdbae7a93953373ec01))
+* **sitemap:** ✨ Exclude pagination pages ([fdf01c3](https://github.com/TheJiahao/TheJiahao.github.io/commit/fdf01c354bac52981ad81e322f4b54b5ef434ba7)), closes [#560](https://github.com/TheJiahao/TheJiahao.github.io/issues/560)
+* **typography:** ✨ Remove space after fullwidth separators "。" and "，" ([4a13c74](https://github.com/TheJiahao/TheJiahao.github.io/commit/4a13c74cea6e5459be00066566fdef62c26ae01c))
+* **url:** ✨ Show 5 blogs in blog collection pages ([c06f7e6](https://github.com/TheJiahao/TheJiahao.github.io/commit/c06f7e6e701729f8b95fe9ff26a279e3f8e9c5f4)), closes [#560](https://github.com/TheJiahao/TheJiahao.github.io/issues/560)
+
+
+### Bug Fixes
+
+* 🐛 Attributify types ([2d9be74](https://github.com/TheJiahao/TheJiahao.github.io/commit/2d9be745077024857f0244eb9fdd730ce76f02c9))
+* 🐛 Exclude playwright from build ([0ece8de](https://github.com/TheJiahao/TheJiahao.github.io/commit/0ece8de3e2b7ceba89b1e643f884e915507c12d4))
+* 🐛 HTML semantics ([4b5dad3](https://github.com/TheJiahao/TheJiahao.github.io/commit/4b5dad3e539752ab566395aca1711869034cd518))
+* 🐛 JSON-LD schema not in `&lt;head/&gt;` ([4a23610](https://github.com/TheJiahao/TheJiahao.github.io/commit/4a236103a86cd88a16117320b6f0549121d24924))
+* 🐛 Lint ([5f0d74c](https://github.com/TheJiahao/TheJiahao.github.io/commit/5f0d74cdd86ac966ea8f594efe55026862360b92))
+* 🐛 Lint ([af9e088](https://github.com/TheJiahao/TheJiahao.github.io/commit/af9e088d1ef57de70b93654bd420b76edc597a80))
+* 🐛 Lint ([0a7a7a2](https://github.com/TheJiahao/TheJiahao.github.io/commit/0a7a7a2c70e8f3c36fc55d01c9f2a5325e4eb1d8))
+* 🐛 Lint command ([ea23604](https://github.com/TheJiahao/TheJiahao.github.io/commit/ea23604abf85a4f7938ae3af11b8fe8a3b8f2b39))
+* 🐛 Schema not in head ([da245bb](https://github.com/TheJiahao/TheJiahao.github.io/commit/da245bb1a67ffb673e3889062ddb3c4ac3104566))
+* 🐛 Schema not returned ([0ac1327](https://github.com/TheJiahao/TheJiahao.github.io/commit/0ac13275260841e5e4611f69c80db8be53a09621))
+* 🐛 Type error ([42fb219](https://github.com/TheJiahao/TheJiahao.github.io/commit/42fb219a3babdfde3f6ff73fb4758e742155da03))
+* 🐛 Typo ([7458777](https://github.com/TheJiahao/TheJiahao.github.io/commit/7458777a245fa947f98bddd96856a4f12fbe4b75))
+* 🐛 Typo ([b5bd1b9](https://github.com/TheJiahao/TheJiahao.github.io/commit/b5bd1b93e55a12f23560c8087b0abea483bfd9af))
+* **accessibility:** 🐛 Add aria-disabled when link not clickable ([245d024](https://github.com/TheJiahao/TheJiahao.github.io/commit/245d024b14fa4613ad06aae1ed84df0279df27f3)), closes [#560](https://github.com/TheJiahao/TheJiahao.github.io/issues/560)
+* **blog-footer:** 🐛 Replace `&lt;p&gt;` with `<div>` ([2aced2b](https://github.com/TheJiahao/TheJiahao.github.io/commit/2aced2bc2db03966e5b8c9c72467800322d14842))
+* **callout:** 🐛 Remove excess margin ([1b64b6a](https://github.com/TheJiahao/TheJiahao.github.io/commit/1b64b6a914d9dba833ca02868f5f2c358401dc14))
+* **container:** 🐛 Import Markdown renderer from @astrojs/mdx ([332c686](https://github.com/TheJiahao/TheJiahao.github.io/commit/332c68627129b8773e62f4abbf419db2ca0c7b1b))
+* **container:** 🐛 Use new renderer API ([652d2b1](https://github.com/TheJiahao/TheJiahao.github.io/commit/652d2b1dfb13956979ea501a168cda0c356e4aea))
+* **deps:** 🐛 Lockfile ([c49cc73](https://github.com/TheJiahao/TheJiahao.github.io/commit/c49cc73daa69495f14501f52dce678266bead74b))
+* **home-page:** 🐛 Incorrect aria-label ([c60d0a4](https://github.com/TheJiahao/TheJiahao.github.io/commit/c60d0a45b126d2cbc5b90f85d5e79b632e7776db))
+* **icon-link:** 🐛 onlyIcon reversed ([50716e4](https://github.com/TheJiahao/TheJiahao.github.io/commit/50716e4eab0633fc32735a3e03a7624c81fa359a))
+* **icon-link:** 🐛 title is undefined ([03b8c35](https://github.com/TheJiahao/TheJiahao.github.io/commit/03b8c351efd5623f4622a2080b9e883ec41aa0e3))
+* **icon:** 🐛 Update icon names ([159844b](https://github.com/TheJiahao/TheJiahao.github.io/commit/159844b829982e5ed22a73e12880e407df0135b7))
+* **nav-bar:** 🐛 Trailing slashes not working ([9adcbee](https://github.com/TheJiahao/TheJiahao.github.io/commit/9adcbeef814302d54e43851b076d0390fb3ef404))
+* **pagination:** 🐛 Links not disabled ([6a4a7a6](https://github.com/TheJiahao/TheJiahao.github.io/commit/6a4a7a61b2fbe106737a513dea1c83f82e07f973)), closes [#560](https://github.com/TheJiahao/TheJiahao.github.io/issues/560)
+* **pagination:** 🐛 Show only icon ([da7ed77](https://github.com/TheJiahao/TheJiahao.github.io/commit/da7ed77b2c10027561932836ad6bdf8947d5c3ce)), closes [#560](https://github.com/TheJiahao/TheJiahao.github.io/issues/560)
+* **post:** 🐛 Incorrect definition of current heading ([458fb01](https://github.com/TheJiahao/TheJiahao.github.io/commit/458fb012656715937524651532e7f446b837b014))
+* **post:** 🐛 Remove space after full stop in description ([cb8c98b](https://github.com/TheJiahao/TheJiahao.github.io/commit/cb8c98b85e93369c72fa5439c74d4323e0560566))
+* **post:** 🐛 TWO-EM DASH not showing in Microsoft Edge ([996e04f](https://github.com/TheJiahao/TheJiahao.github.io/commit/996e04f708d33cced21d0366c26f35ea1060b1c8))
+* **post:** 🐛 Update Nushell default config url ([626f3a2](https://github.com/TheJiahao/TheJiahao.github.io/commit/626f3a2368146453baf341997a34b442fbcbb8e2))
+* **social-link:** 🐛 Tests ([bc75509](https://github.com/TheJiahao/TheJiahao.github.io/commit/bc75509a00533c1a3bacfc7fc91fff6daa4dff8c))
+* **test:** 🐛 🚨 E2E tests ([d99d25f](https://github.com/TheJiahao/TheJiahao.github.io/commit/d99d25ff6142c21f02c7e30c05bbfd8b57959170))
+* **test:** 🐛 🚨 Override Vite version ([dcc1294](https://github.com/TheJiahao/TheJiahao.github.io/commit/dcc129425440850e84dc1d7fe5d0041d42886f04))
+* **toc:** 🐛 Replace return with continue ([124cfcb](https://github.com/TheJiahao/TheJiahao.github.io/commit/124cfcb8bd981c9acc91ae3c30700914a9af9708))
+
+
+### Performance Improvements
+
+* ⚡️ Enable prefetch on hover ([178bdb3](https://github.com/TheJiahao/TheJiahao.github.io/commit/178bdb382723efcaf8dfcb48ec55ff6d778dcd67))
+
+
+### Reverts
+
+* "build(deps): 📦️ Add ts-essentials" ([332840d](https://github.com/TheJiahao/TheJiahao.github.io/commit/332840de9feeaa9328e7046898da8d9e0a748f50))
+* "feat(menu-button): ✨ Add click effect" ([572d274](https://github.com/TheJiahao/TheJiahao.github.io/commit/572d2749e6e3220f4fd784b503264ee23bd0979b))
+* "fix(container): 🐛 Use new renderer API" ([7d76cda](https://github.com/TheJiahao/TheJiahao.github.io/commit/7d76cda0eaaaefe8e981c332c48fb14a85d5070c))
+* "fix(nav-bar): 🐛 Trailing slashes not working" ([6612546](https://github.com/TheJiahao/TheJiahao.github.io/commit/6612546ed3fd979ca8e06e5a811fd6d7f25d8db9))
+* "fix(rss): 🐛 Disable trailing slash" ([7e5d98f](https://github.com/TheJiahao/TheJiahao.github.io/commit/7e5d98ff0caf55b53f0577b0681851edda573982))
+* "refactor: ♻️ Move lastModification to Content loader" ([eb9660e](https://github.com/TheJiahao/TheJiahao.github.io/commit/eb9660e9ca4b267ede7b094789fc2b1229e4df3a))
+* "refactor: ♻️ Remove unused code" ([88cd34e](https://github.com/TheJiahao/TheJiahao.github.io/commit/88cd34e0004ca4150f54a3c79557fe93fcc36bd0))
+* "refactor: ♻️ Use destructuring" ([0c491e6](https://github.com/TheJiahao/TheJiahao.github.io/commit/0c491e62d612f9182d1bda238e6c3de38e61fc47))
+* "refactor(toc): ♻️ Calculate all visible sections before setting new" ([bf839e6](https://github.com/TheJiahao/TheJiahao.github.io/commit/bf839e645348432af8a01638f97c56d0f38a809b))
+* "refactor(toc): ♻️ Use same type for visible and all headings" ([847f276](https://github.com/TheJiahao/TheJiahao.github.io/commit/847f276de765066aedb4fbc0043edf7e5fa2b737))
+* "refactor(url): ♻️ Use rest parameters for home page" ([2e6cbf4](https://github.com/TheJiahao/TheJiahao.github.io/commit/2e6cbf49fdd402fd1ac07169aeda93077147ce88))
+* "revert: "fix(rss): 🐛 Disable trailing slash"" ([87ddbc6](https://github.com/TheJiahao/TheJiahao.github.io/commit/87ddbc6027d97ba7e2a7a6706184d8f79d914806))
+* Remove navigation bar highlight ([9aaf5eb](https://github.com/TheJiahao/TheJiahao.github.io/commit/9aaf5ebd979b2b53c14375bbaf187eca80c2757c))
+
 ## [3.5.0](https://github.com/TheJiahao/TheJiahao.github.io/compare/v3.4.2...v3.5.0) (2024-08-30)
 
 ### Features
